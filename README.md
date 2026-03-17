@@ -14,6 +14,14 @@ Clone any live website into working, editable code using DOM extraction. Not scr
 
 **Status:** v0.2.0 — works end-to-end, tested against 1 site. Still finalizing.
 
+### [pre-post](./pre-post/)
+
+Before/after screenshot tool for PRs. Captures visual diffs across routes and viewports, uploads images, and generates markdown tables for pull request documentation.
+
+**Use case:** You just changed the dashboard layout. Run pre-post to capture desktop + mobile screenshots of production vs. localhost, then paste the visual diff into your PR.
+
+**Status:** Working CLI + Claude Code skill. Published as `@juangadm/pre-post`.
+
 ### [product-pathing](./product-pathing/)
 
 Three-phase workflow for turning a product idea into a validated path forward. Frame the problem, research the evidence, converge on a direction.
@@ -39,6 +47,20 @@ Then invoke:
 ```
 
 > Requires Playwright MCP — auto-configures when the plugin loads.
+
+### Pre-Post
+
+Pre-Post is a CLI tool + Claude Code skill:
+
+```bash
+# Install the CLI
+npm install -g @juangadm/pre-post
+
+# Or use via npx
+npx pre-post compare --before-base https://prod.com --after-base http://localhost:3000
+```
+
+As a Claude Code skill, add it to your settings or say "take before and after screenshots" during a session.
 
 ### Product Pathing
 
