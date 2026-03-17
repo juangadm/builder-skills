@@ -1,8 +1,0 @@
-{
-  "name": "dupe",
-  "description": "Clone any website pixel-perfectly using DOM extraction. Extracts real markup, styles, dimensions, and interactions — not screenshots.",
-  "author": {
-    "name": "juangadm",
-    "url": "https://github.com/juangadm"
-  }
-}

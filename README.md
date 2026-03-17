@@ -1,92 +1,87 @@
 # Builder Skills
 
-Claude Code skills for builders — PMs, designers, and engineers who want to move fast from idea to artifact.
-
-Each skill is a standalone tool that plugs into [Claude Code](https://claude.ai/claude-code). They're designed for people who build products: prototype on real UIs, turn ideas into validated paths, ship things that look and work like the real deal.
+Claude Code skills for people who build products. Clone real UIs, turn ideas into specs, document visual changes — all from the terminal.
 
 ## Skills
 
-### [dupe](./dupe/)
-
-Clone any live website into working, editable code using DOM extraction. Not screenshots — real structure, styles, dimensions, and interactions extracted from the actual DOM.
-
-**Use case:** You're interviewing at Ramp. Clone their expense dashboard, add your proposed feature, demo a working prototype in the interview.
-
-**Status:** v0.2.0 — works end-to-end, tested against 1 site. Still finalizing.
-
-### [pre-post](./pre-post/)
-
-Before/after screenshot tool for PRs. Captures visual diffs across routes and viewports, uploads images, and generates markdown tables for pull request documentation.
-
-**Use case:** You just changed the dashboard layout. Run pre-post to capture desktop + mobile screenshots of production vs. localhost, then paste the visual diff into your PR.
-
-**Status:** Working CLI + Claude Code skill. Published as `@juangadm/pre-post`.
-
-### [product-pathing](./product-pathing/)
-
-Three-phase workflow for turning a product idea into a validated path forward. Frame the problem, research the evidence, converge on a direction.
-
-**Use case:** You have a feature idea but need to build conviction before committing. Run `/product-pathing` to structure your thinking, gather competitive intel, and produce a tight spec.
-
-**Status:** Ready to use.
+| Skill | What it does | Status |
+|-------|-------------|--------|
+| [dupe](./skills/dupe/) | Clone any website into working code via DOM extraction | v0.2 — finalizing |
+| [pre-post](./skills/pre-post/) | Before/after screenshots for PR visual diffs | Working |
+| [product-pathing](./skills/product-pathing/) | Frame → Research → Path workflow for product specs | Ready |
 
 ## Install
 
-### Dupe
-
-Dupe is a Claude Code plugin (skill + Playwright MCP server bundled together):
+### Option 1: Install all skills
 
 ```bash
-claude plugin install juangadm/builder-skills --dir dupe
+claude plugin install juangadm/builder-skills
 ```
 
-Then invoke:
+### Option 2: Install individually
 
-```
-/dupe:dupe https://example.com
-```
-
-> Requires Playwright MCP — auto-configures when the plugin loads.
-
-### Pre-Post
-
-Pre-Post is a CLI tool + Claude Code skill:
+Copy the `skills/{name}/` folder into your project's `.claude/skills/` directory:
 
 ```bash
-# Install the CLI
-npm install -g @juangadm/pre-post
-
-# Or use via npx
-npx pre-post compare --before-base https://prod.com --after-base http://localhost:3000
+# Example: install just product-pathing
+cp -r skills/product-pathing/ .claude/skills/product-pathing/
 ```
 
-As a Claude Code skill, add it to your settings or say "take before and after screenshots" during a session.
+### Requirements
 
-### Product Pathing
+- **dupe** requires [Playwright MCP](https://github.com/anthropics/mcp-playwright) — the skill will prompt you if it's missing
+- **pre-post** requires the `pre-post` CLI: `npm install -g @juangadm/pre-post`
+- **product-pathing** has no dependencies
 
-Product Pathing is a standalone skill. Add it to your Claude Code settings:
+## Skill Details
 
-```bash
-claude skill add juangadm/builder-skills --dir product-pathing
+### dupe
+
+Clone a live website into editable HTML/CSS/JS. Extracts real DOM structure, computed styles, dimensions, and interactions — not screenshots.
+
+```
+/dupe https://try.ramp.com
 ```
 
-Or manually: copy `product-pathing/SKILL.md` to your `.claude/skills/` directory.
+**Includes:** SKILL.md + 3 phase files (extract, build, verify) + 12 browser scripts + extraction reference doc
 
-Then invoke by saying "path this", "spec this", "scope this", or any product thinking trigger.
+**Use case:** Clone Ramp's dashboard, add your proposed feature, demo it in an interview.
 
-## Philosophy
+### pre-post
 
-These skills share a design philosophy:
+Capture before/after screenshots across routes and viewports. Generates markdown tables for PR documentation.
 
-1. **Opinionated, not neutral.** They push back, challenge scope, and recommend directions — not just execute instructions.
-2. **Artifact-first.** Every skill produces something tangible: working code, a spec, a research file. No hand-waving.
-3. **Token-intensive by design.** They spend compute generously because the alternative (doing it manually) costs hours. Tokens are cheap, time isn't.
+**Includes:** SKILL.md + upload scripts (git-native, blob, 0x0st adapters)
+
+**Use case:** You changed the dashboard layout. Capture production vs. localhost, paste the visual diff into your PR.
+
+### product-pathing
+
+Three-phase workflow: Frame the problem, research the evidence, converge on a direction. Outputs `path-draft.md` + validation plan.
+
+**Includes:** SKILL.md (self-contained)
+
+**Use case:** You have a feature idea. Structure your thinking, run competitive research, produce a tight spec — all in one session.
+
+## Structure
+
+```
+skills/
+├── dupe/
+│   ├── SKILL.md              # Orchestrator (5-phase pipeline)
+│   ├── phases/               # Extract, build, verify phase prompts
+│   ├── scripts/              # Playwright browser_evaluate scripts
+│   └── references/           # Extraction format reference
+├── pre-post/
+│   ├── SKILL.md              # Screenshot capture + PR integration
+│   └── scripts/              # Image upload adapters
+└── product-pathing/
+    └── SKILL.md              # Frame → Research → Path workflow
+```
 
 ## Contributing
 
-Each skill has its own development workflow. See the README in each skill's directory for details.
-
-The most valuable contribution for any skill: **use it on a real task and report what breaks.**
+Use a skill on a real task and report what breaks. That's the most valuable contribution.
 
 ## License
 
