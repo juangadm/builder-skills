@@ -1,0 +1,1055 @@
+- generic [ref=e8]:
+  - complementary [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e12]:
+        - button "Home" [ref=e14] [cursor=pointer]:
+          - generic:
+            - img
+          - generic [ref=e15]: Home
+        - button "Collapse navigation" [ref=e16] [cursor=pointer]:
+          - generic:
+            - img
+          - generic [ref=e17]: Collapse navigation
+      - generic [ref=e21]:
+        - button "Search ⌘ K" [ref=e24] [cursor=pointer]:
+          - generic:
+            - img
+          - generic [ref=e25]: Search
+          - generic [ref=e26]:
+            - generic [ref=e28]: ⌘
+            - generic [ref=e30]: K
+        - button "Inbox 7" [ref=e33] [cursor=pointer]:
+          - generic:
+            - img
+          - generic [ref=e34]: Inbox
+          - generic [ref=e37]: "7"
+        - button "Insights" [ref=e40] [cursor=pointer]:
+          - generic:
+            - img
+          - generic [ref=e41]: Insights
+        - generic [ref=e42]:
+          - button "My Ramp" [ref=e44] [cursor=pointer]:
+            - generic:
+              - img
+            - generic [ref=e45]: My Ramp
+          - generic [ref=e46]:
+            - button "Overview" [ref=e47] [cursor=pointer]:
+              - generic:
+                - img
+              - generic [ref=e48]: Overview
+            - button "Expenses" [ref=e49] [cursor=pointer]:
+              - generic:
+                - img
+              - generic [ref=e50]: Expenses
+            - button "Travel" [ref=e51] [cursor=pointer]:
+              - generic:
+                - img
+              - generic [ref=e52]: Travel
+        - button "Expenses" [ref=e55] [cursor=pointer]:
+          - generic:
+            - img
+          - generic [ref=e56]: Expenses
+        - button "Spend programs" [ref=e59] [cursor=pointer]:
+          - generic:
+            - img
+          - generic [ref=e60]: Spend programs
+        - button "Procurement" [ref=e63] [cursor=pointer]:
+          - generic:
+            - img
+          - generic [ref=e64]: Procurement
+        - button "Bill Pay" [ref=e67] [cursor=pointer]:
+          - generic:
+            - img
+          - generic [ref=e68]: Bill Pay
+        - button "Accounting 37" [ref=e71] [cursor=pointer]:
+          - generic:
+            - img
+          - generic [ref=e72]: Accounting
+          - generic [ref=e75]: "37"
+        - button "People" [ref=e78] [cursor=pointer]:
+          - generic:
+            - img
+          - generic [ref=e79]: People
+        - button "Vendors" [ref=e82] [cursor=pointer]:
+          - generic:
+            - img
+          - generic [ref=e83]: Vendors
+      - button "Settings" [ref=e89] [cursor=pointer]:
+        - generic:
+          - img
+        - generic [ref=e90]: Settings
+  - generic [ref=e91]:
+    - generic [ref=e94]:
+      - generic [ref=e96]:
+        - text: See how Ramp can save your business time and money.
+        - link "Learn more ↗" [ref=e97] [cursor=pointer]:
+          - /url: https://ramp.com?utm_source=try-ramp
+          - text: Learn more
+          - generic [ref=e98]: ↗
+      - button "Get started ↗" [ref=e100] [cursor=pointer]:
+        - generic [ref=e101]: Get started
+        - generic [ref=e102]: ↗
+    - generic [ref=e103]:
+      - 'heading "My Ramp : Expenses" [level=2] [ref=e110]':
+        - generic [ref=e111]:
+          - text: My Ramp
+          - generic [ref=e112]: ":"
+        - generic [ref=e115]: Expenses
+      - generic [ref=e121]:
+        - generic [ref=e122] [cursor=pointer]:
+          - button "All" [ref=e123]
+          - generic [ref=e126]: All
+        - generic [ref=e127] [cursor=pointer]:
+          - button "Reimbursements" [ref=e128]
+          - generic [ref=e131]: Reimbursements
+      - generic [ref=e134]:
+        - button "Filter by… Toggle filter menu" [ref=e138]:
+          - img [ref=e140]
+          - generic [ref=e144]:
+            - generic "Filter by…" [ref=e145]
+            - generic [ref=e146]: Toggle filter menu
+        - generic [ref=e147]:
+          - button "Filter by date" [ref=e148] [cursor=pointer]:
+            - generic:
+              - img
+          - button [ref=e149] [cursor=pointer]:
+            - generic:
+              - img
+          - button "Export (CSV)" [ref=e150] [cursor=pointer]:
+            - generic:
+              - img
+            - generic [ref=e151]: Export (CSV)
+      - table "Transactions" [ref=e153]:
+        - rowgroup [ref=e154]:
+          - row "Select all 21 Spent on Transaction date Payment type Status Spent from Memo Accounting Category Policy Status Amount" [ref=e155]:
+            - columnheader "Select all 21" [ref=e156]:
+              - generic [ref=e157] [cursor=pointer]:
+                - generic [ref=e158]:
+                  - checkbox "Select all 21" [ref=e159]
+                  - img
+                - generic [ref=e160]: Select all 21
+            - columnheader "Spent on" [ref=e161]:
+              - generic [ref=e164]: Spent on
+            - columnheader "Transaction date" [ref=e165] [cursor=pointer]:
+              - generic [ref=e168]: Transaction date
+            - columnheader "Payment type" [ref=e169]:
+              - generic [ref=e172]: Payment type
+            - columnheader "Status" [ref=e173]:
+              - generic [ref=e176]: Status
+            - columnheader "Spent from" [ref=e177]:
+              - generic [ref=e180]: Spent from
+            - columnheader "Memo" [ref=e181]:
+              - generic [ref=e184]: Memo
+            - columnheader "Accounting Category" [ref=e185]:
+              - generic [ref=e188]: Accounting Category
+            - columnheader "Policy Status" [ref=e189]:
+              - generic [ref=e192]: Policy Status
+            - columnheader
+            - columnheader "Amount" [ref=e193] [cursor=pointer]:
+              - generic [ref=e196]: Amount
+            - columnheader [ref=e197]
+        - rowgroup [ref=e198]:
+          - row "Tacombi Missing items · Restaurants · David Wallace May 29, 2024 Virtual card (1169) Pending Office Supplies View limit Edit Accounting Category View receipt $135.40 USD" [ref=e199]:
+            - cell [ref=e200]:
+              - generic [ref=e202] [cursor=pointer]:
+                - checkbox [ref=e203]
+                - img
+            - cell "Tacombi Missing items · Restaurants · David Wallace" [ref=e204] [cursor=pointer]:
+              - generic [ref=e212]:
+                - text: Tacombi
+                - generic [ref=e213]:
+                  - generic [ref=e214]: Missing items
+                  - text: · Restaurants · David Wallace
+            - cell "May 29, 2024" [ref=e215] [cursor=pointer]:
+              - generic [ref=e218]: May 29, 2024
+            - cell "Virtual card (1169)" [ref=e219] [cursor=pointer]:
+              - generic [ref=e222]: Virtual card (1169)
+            - cell "Pending" [ref=e223] [cursor=pointer]:
+              - paragraph [ref=e226]: Pending
+            - cell "Office Supplies View limit" [ref=e227] [cursor=pointer]:
+              - generic [ref=e228]:
+                - generic [ref=e230]: Office Supplies
+                - button "View limit" [ref=e231]:
+                  - generic:
+                    - img
+                  - generic [ref=e232]: View limit
+            - cell "Edit" [ref=e233] [cursor=pointer]:
+              - generic [ref=e236]:
+                - img [ref=e240]
+                - button "Edit" [ref=e243]:
+                  - generic:
+                    - img
+                  - generic [ref=e244]: Edit
+            - cell "Accounting Category" [ref=e245]:
+              - generic [ref=e248]:
+                - generic [ref=e249]:
+                  - generic [ref=e250]: Accounting Category
+                  - button "Accounting Category" [ref=e252]
+                - img [ref=e254]
+            - cell "View receipt" [ref=e256] [cursor=pointer]:
+              - generic [ref=e259]:
+                - img [ref=e263]
+                - button "View receipt" [ref=e267]:
+                  - generic:
+                    - img
+                  - generic [ref=e268]: View receipt
+                - img [ref=e271]
+            - cell
+            - cell "$135.40 USD" [ref=e273] [cursor=pointer]:
+              - paragraph [ref=e280]: $135.40 USD
+            - cell [ref=e281]
+          - row "RR Ramp Restaurant Paid May 27, 2024 Reimbursement Paid - Team dinner during company offsite “Synced” reimbursements cannot be edited. 1200 Employee Benefits View receipt $1,174.77 USD" [ref=e282]:
+            - cell [ref=e283]:
+              - generic [ref=e285]:
+                - checkbox [disabled] [ref=e286]
+                - img
+            - cell "RR Ramp Restaurant Paid" [ref=e287] [cursor=pointer]:
+              - generic [ref=e290]:
+                - generic [ref=e294]: RR
+                - generic [ref=e296]:
+                  - text: Ramp Restaurant
+                  - generic [ref=e297]: Paid
+            - cell "May 27, 2024" [ref=e298] [cursor=pointer]:
+              - generic [ref=e301]: May 27, 2024
+            - cell "Reimbursement" [ref=e302] [cursor=pointer]:
+              - generic [ref=e305]: Reimbursement
+            - cell "Paid" [ref=e306] [cursor=pointer]:
+              - generic [ref=e314]: Paid
+            - cell "-" [ref=e315] [cursor=pointer]:
+              - generic [ref=e318]: "-"
+            - cell "Team dinner during company offsite" [ref=e319] [cursor=pointer]:
+              - generic [ref=e321]: Team dinner during company offsite
+            - cell "“Synced” reimbursements cannot be edited. 1200 Employee Benefits" [ref=e322]:
+              - generic [ref=e325]:
+                - generic [ref=e326]:
+                  - img [ref=e327]
+                  - generic [ref=e328]: “Synced” reimbursements cannot be edited.
+                - button "1200 Employee Benefits" [disabled] [ref=e331]
+                - img [ref=e333]
+            - cell "View receipt" [ref=e334] [cursor=pointer]:
+              - generic [ref=e337]:
+                - img [ref=e340]
+                - button "View receipt" [ref=e344]:
+                  - generic:
+                    - img
+                  - generic [ref=e345]: View receipt
+                - img [ref=e348]
+            - cell
+            - cell "$1,174.77 USD" [ref=e350] [cursor=pointer]:
+              - generic [ref=e355]: $1,174.77 USD
+            - cell [ref=e356]
+          - row "Delta Airlines Paid May 27, 2024 Reimbursement Paid - Flights to company offsite in Miami “Synced” reimbursements cannot be edited. 1200 Employee Benefits View receipt $3,104.06 USD" [ref=e357]:
+            - cell [ref=e358]:
+              - generic [ref=e360]:
+                - checkbox [disabled] [ref=e361]
+                - img
+            - cell "Delta Airlines Paid" [ref=e362] [cursor=pointer]:
+              - generic [ref=e369]:
+                - text: Delta Airlines
+                - generic [ref=e370]: Paid
+            - cell "May 27, 2024" [ref=e371] [cursor=pointer]:
+              - generic [ref=e374]: May 27, 2024
+            - cell "Reimbursement" [ref=e375] [cursor=pointer]:
+              - generic [ref=e378]: Reimbursement
+            - cell "Paid" [ref=e379] [cursor=pointer]:
+              - generic [ref=e387]: Paid
+            - cell "-" [ref=e388] [cursor=pointer]:
+              - generic [ref=e391]: "-"
+            - cell "Flights to company offsite in Miami" [ref=e392] [cursor=pointer]:
+              - generic [ref=e394]: Flights to company offsite in Miami
+            - cell "“Synced” reimbursements cannot be edited. 1200 Employee Benefits" [ref=e395]:
+              - generic [ref=e398]:
+                - generic [ref=e399]:
+                  - img [ref=e400]
+                  - generic [ref=e401]: “Synced” reimbursements cannot be edited.
+                - button "1200 Employee Benefits" [disabled] [ref=e404]
+                - img [ref=e406]
+            - cell "View receipt" [ref=e407] [cursor=pointer]:
+              - generic [ref=e410]:
+                - img [ref=e413]
+                - button "View receipt" [ref=e417]:
+                  - generic:
+                    - img
+                  - generic [ref=e418]: View receipt
+                - img [ref=e421]
+            - cell
+            - cell "$3,104.06 USD" [ref=e423] [cursor=pointer]:
+              - generic [ref=e428]: $3,104.06 USD
+            - cell [ref=e429]
+          - row "RR Ramp Restaurant Paid May 27, 2024 Reimbursement Paid - Team dinner during company offsite “Synced” reimbursements cannot be edited. 1200 Employee Benefits View receipt $421.55 USD" [ref=e430]:
+            - cell [ref=e431]:
+              - generic [ref=e433]:
+                - checkbox [disabled] [ref=e434]
+                - img
+            - cell "RR Ramp Restaurant Paid" [ref=e435] [cursor=pointer]:
+              - generic [ref=e438]:
+                - generic [ref=e442]: RR
+                - generic [ref=e444]:
+                  - text: Ramp Restaurant
+                  - generic [ref=e445]: Paid
+            - cell "May 27, 2024" [ref=e446] [cursor=pointer]:
+              - generic [ref=e449]: May 27, 2024
+            - cell "Reimbursement" [ref=e450] [cursor=pointer]:
+              - generic [ref=e453]: Reimbursement
+            - cell "Paid" [ref=e454] [cursor=pointer]:
+              - generic [ref=e462]: Paid
+            - cell "-" [ref=e463] [cursor=pointer]:
+              - generic [ref=e466]: "-"
+            - cell "Team dinner during company offsite" [ref=e467] [cursor=pointer]:
+              - generic [ref=e469]: Team dinner during company offsite
+            - cell "“Synced” reimbursements cannot be edited. 1200 Employee Benefits" [ref=e470]:
+              - generic [ref=e473]:
+                - generic [ref=e474]:
+                  - img [ref=e475]
+                  - generic [ref=e476]: “Synced” reimbursements cannot be edited.
+                - button "1200 Employee Benefits" [disabled] [ref=e479]
+                - img [ref=e481]
+            - cell "View receipt" [ref=e482] [cursor=pointer]:
+              - generic [ref=e485]:
+                - img [ref=e488]
+                - button "View receipt" [ref=e492]:
+                  - generic:
+                    - img
+                  - generic [ref=e493]: View receipt
+                - img [ref=e496]
+            - cell
+            - cell "$421.55 USD" [ref=e498] [cursor=pointer]:
+              - generic [ref=e503]: $421.55 USD
+            - cell [ref=e504]
+          - row "Delta Airlines Paid May 27, 2024 Reimbursement Paid - Flights to company offsite in Miami “Synced” reimbursements cannot be edited. 1200 Employee Benefits View receipt $2,490.50 USD" [ref=e505]:
+            - cell [ref=e506]:
+              - generic [ref=e508]:
+                - checkbox [disabled] [ref=e509]
+                - img
+            - cell "Delta Airlines Paid" [ref=e510] [cursor=pointer]:
+              - generic [ref=e517]:
+                - text: Delta Airlines
+                - generic [ref=e518]: Paid
+            - cell "May 27, 2024" [ref=e519] [cursor=pointer]:
+              - generic [ref=e522]: May 27, 2024
+            - cell "Reimbursement" [ref=e523] [cursor=pointer]:
+              - generic [ref=e526]: Reimbursement
+            - cell "Paid" [ref=e527] [cursor=pointer]:
+              - generic [ref=e535]: Paid
+            - cell "-" [ref=e536] [cursor=pointer]:
+              - generic [ref=e539]: "-"
+            - cell "Flights to company offsite in Miami" [ref=e540] [cursor=pointer]:
+              - generic [ref=e542]: Flights to company offsite in Miami
+            - cell "“Synced” reimbursements cannot be edited. 1200 Employee Benefits" [ref=e543]:
+              - generic [ref=e546]:
+                - generic [ref=e547]:
+                  - img [ref=e548]
+                  - generic [ref=e549]: “Synced” reimbursements cannot be edited.
+                - button "1200 Employee Benefits" [disabled] [ref=e552]
+                - img [ref=e554]
+            - cell "View receipt" [ref=e555] [cursor=pointer]:
+              - generic [ref=e558]:
+                - img [ref=e561]
+                - button "View receipt" [ref=e565]:
+                  - generic:
+                    - img
+                  - generic [ref=e566]: View receipt
+                - img [ref=e569]
+            - cell
+            - cell "$2,490.50 USD" [ref=e571] [cursor=pointer]:
+              - generic [ref=e576]: $2,490.50 USD
+            - cell [ref=e577]
+          - row "Best Buy Awaiting payment May 24, 2024 Reimbursement Processing - Home monitor — View receipt $60.61 USD" [ref=e578]:
+            - cell [ref=e579]:
+              - generic [ref=e581]:
+                - checkbox [disabled] [ref=e582]
+                - img
+            - cell "Best Buy Awaiting payment" [ref=e583] [cursor=pointer]:
+              - generic [ref=e590]:
+                - text: Best Buy
+                - generic [ref=e591]: Awaiting payment
+            - cell "May 24, 2024" [ref=e592] [cursor=pointer]:
+              - generic [ref=e595]: May 24, 2024
+            - cell "Reimbursement" [ref=e596] [cursor=pointer]:
+              - generic [ref=e599]: Reimbursement
+            - cell "Processing" [ref=e600] [cursor=pointer]:
+              - generic [ref=e608]: Processing
+            - cell "-" [ref=e609] [cursor=pointer]:
+              - generic [ref=e612]: "-"
+            - cell "Home monitor" [ref=e613] [cursor=pointer]:
+              - generic [ref=e615]: Home monitor
+            - cell "—" [ref=e616]:
+              - generic [ref=e619]:
+                - img [ref=e621]
+                - generic [ref=e622]:
+                  - generic [ref=e623]: —
+                  - button "—" [disabled] [ref=e625]
+                - img [ref=e627]
+            - cell "View receipt" [ref=e628] [cursor=pointer]:
+              - generic [ref=e631]:
+                - img [ref=e634]
+                - button "View receipt" [ref=e638]:
+                  - generic:
+                    - img
+                  - generic [ref=e639]: View receipt
+                - img [ref=e642]
+            - cell
+            - cell "$60.61 USD" [ref=e644] [cursor=pointer]:
+              - generic [ref=e649]: $60.61 USD
+            - cell [ref=e650]
+          - row "Uber Pending review May 23, 2024 Reimbursement Pending review - Office commute — View receipt $339.32 USD" [ref=e651]:
+            - cell [ref=e652]:
+              - generic [ref=e654]:
+                - checkbox [disabled] [ref=e655]
+                - img
+            - cell "Uber Pending review" [ref=e656] [cursor=pointer]:
+              - generic [ref=e663]:
+                - text: Uber
+                - generic [ref=e664]: Pending review
+            - cell "May 23, 2024" [ref=e665] [cursor=pointer]:
+              - generic [ref=e668]: May 23, 2024
+            - cell "Reimbursement" [ref=e669] [cursor=pointer]:
+              - generic [ref=e672]: Reimbursement
+            - cell "Pending review" [ref=e673] [cursor=pointer]:
+              - generic [ref=e681]: Pending review
+            - cell "-" [ref=e682] [cursor=pointer]:
+              - generic [ref=e685]: "-"
+            - cell "Office commute" [ref=e686] [cursor=pointer]:
+              - generic [ref=e688]: Office commute
+            - cell "—" [ref=e689]:
+              - generic [ref=e692]:
+                - img [ref=e694]
+                - generic [ref=e695]:
+                  - generic [ref=e696]: —
+                  - button "—" [disabled] [ref=e698]
+                - img [ref=e700]
+            - cell "View receipt" [ref=e701] [cursor=pointer]:
+              - generic [ref=e704]:
+                - img [ref=e707]
+                - button "View receipt" [ref=e711]:
+                  - generic:
+                    - img
+                  - generic [ref=e712]: View receipt
+                - img [ref=e715]
+            - cell
+            - cell "$339.32 USD" [ref=e717] [cursor=pointer]:
+              - generic [ref=e722]: $339.32 USD
+            - cell [ref=e723]
+          - row "612.17 miles Pending review May 22, 2024 Reimbursement Pending review - Office supplies delivery — View receipt $410.15 USD" [ref=e724]:
+            - cell [ref=e725]:
+              - generic [ref=e727]:
+                - checkbox [disabled] [ref=e728]
+                - img
+            - cell "612.17 miles Pending review" [ref=e729] [cursor=pointer]:
+              - generic [ref=e732]:
+                - img [ref=e735]
+                - generic [ref=e741]:
+                  - text: 612.17 miles
+                  - generic [ref=e742]: Pending review
+            - cell "May 22, 2024" [ref=e743] [cursor=pointer]:
+              - generic [ref=e746]: May 22, 2024
+            - cell "Reimbursement" [ref=e747] [cursor=pointer]:
+              - generic [ref=e750]: Reimbursement
+            - cell "Pending review" [ref=e751] [cursor=pointer]:
+              - generic [ref=e759]: Pending review
+            - cell "-" [ref=e760] [cursor=pointer]:
+              - generic [ref=e763]: "-"
+            - cell "Office supplies delivery" [ref=e764] [cursor=pointer]:
+              - generic [ref=e766]: Office supplies delivery
+            - cell "—" [ref=e767]:
+              - generic [ref=e770]:
+                - img [ref=e772]
+                - generic [ref=e773]:
+                  - generic [ref=e774]: —
+                  - button "—" [disabled] [ref=e776]
+                - img [ref=e778]
+            - cell "View receipt" [ref=e779] [cursor=pointer]:
+              - generic [ref=e782]:
+                - img [ref=e785]
+                - button "View receipt" [ref=e789]:
+                  - generic:
+                    - img
+                  - generic [ref=e790]: View receipt
+                - img [ref=e793]
+            - cell
+            - cell "$410.15 USD" [ref=e795] [cursor=pointer]:
+              - generic [ref=e800]: $410.15 USD
+            - cell [ref=e801]
+          - row "Grubhub Requirements complete · Restaurants · David Wallace Sep 28, 2021 Virtual card (1169) Pending Office Supplies View limit Edit “Synced” transactions cannot be edited. — View receipt $25.00 USD" [ref=e802]:
+            - cell [ref=e803]:
+              - generic [ref=e805] [cursor=pointer]:
+                - checkbox [ref=e806]
+                - img
+            - cell "Grubhub Requirements complete · Restaurants · David Wallace" [ref=e807] [cursor=pointer]:
+              - generic [ref=e810]:
+                - img [ref=e815]
+                - generic [ref=e818]:
+                  - text: Grubhub
+                  - generic [ref=e819]:
+                    - generic [ref=e820]: Requirements complete
+                    - text: · Restaurants · David Wallace
+            - cell "Sep 28, 2021" [ref=e821] [cursor=pointer]:
+              - generic [ref=e824]: Sep 28, 2021
+            - cell "Virtual card (1169)" [ref=e825] [cursor=pointer]:
+              - generic [ref=e828]: Virtual card (1169)
+            - cell "Pending" [ref=e829] [cursor=pointer]:
+              - paragraph [ref=e832]: Pending
+            - cell "Office Supplies View limit" [ref=e833] [cursor=pointer]:
+              - generic [ref=e834]:
+                - generic [ref=e836]: Office Supplies
+                - button "View limit" [ref=e837]:
+                  - generic:
+                    - img
+                  - generic [ref=e838]: View limit
+            - cell "Edit" [ref=e839] [cursor=pointer]:
+              - generic [ref=e842]:
+                - img [ref=e846]
+                - button "Edit" [ref=e848]:
+                  - generic:
+                    - img
+                  - generic [ref=e849]: Edit
+            - cell "“Synced” transactions cannot be edited. —" [ref=e850]:
+              - generic [ref=e853]:
+                - generic [ref=e854]:
+                  - img [ref=e855]
+                  - generic [ref=e857]: “Synced” transactions cannot be edited.
+                - generic [ref=e858]:
+                  - generic [ref=e859]: —
+                  - button "—" [disabled] [ref=e861]
+                - img [ref=e863]
+            - cell "View receipt" [ref=e864] [cursor=pointer]:
+              - generic [ref=e867]:
+                - img [ref=e871]
+                - button "View receipt" [ref=e873]:
+                  - generic:
+                    - img
+                  - generic [ref=e874]: View receipt
+                - img [ref=e877]
+            - cell
+            - cell "$25.00 USD" [ref=e878] [cursor=pointer]:
+              - paragraph [ref=e885]: $25.00 USD
+            - cell [ref=e886]
+          - row "New York Botanical Garden Requirements complete · Entertainment · David Wallace Sep 22, 2021 Virtual card (1169) Pending Office Supplies View limit Edit “Synced” transactions cannot be edited. — View receipt $70.00 USD" [ref=e887]:
+            - cell [ref=e888]:
+              - generic [ref=e890] [cursor=pointer]:
+                - checkbox [ref=e891]
+                - img
+            - cell "New York Botanical Garden Requirements complete · Entertainment · David Wallace" [ref=e892] [cursor=pointer]:
+              - generic [ref=e900]:
+                - text: New York Botanical Garden
+                - generic [ref=e901]:
+                  - generic [ref=e902]: Requirements complete
+                  - text: · Entertainment · David Wallace
+            - cell "Sep 22, 2021" [ref=e903] [cursor=pointer]:
+              - generic [ref=e906]: Sep 22, 2021
+            - cell "Virtual card (1169)" [ref=e907] [cursor=pointer]:
+              - generic [ref=e910]: Virtual card (1169)
+            - cell "Pending" [ref=e911] [cursor=pointer]:
+              - paragraph [ref=e914]: Pending
+            - cell "Office Supplies View limit" [ref=e915] [cursor=pointer]:
+              - generic [ref=e916]:
+                - generic [ref=e918]: Office Supplies
+                - button "View limit" [ref=e919]:
+                  - generic:
+                    - img
+                  - generic [ref=e920]: View limit
+            - cell "Edit" [ref=e921] [cursor=pointer]:
+              - generic [ref=e924]:
+                - img [ref=e928]
+                - button "Edit" [ref=e930]:
+                  - generic:
+                    - img
+                  - generic [ref=e931]: Edit
+            - cell "“Synced” transactions cannot be edited. —" [ref=e932]:
+              - generic [ref=e935]:
+                - generic [ref=e936]:
+                  - img [ref=e937]
+                  - generic [ref=e939]: “Synced” transactions cannot be edited.
+                - generic [ref=e940]:
+                  - generic [ref=e941]: —
+                  - button "—" [disabled] [ref=e943]
+                - img [ref=e945]
+            - cell "View receipt" [ref=e946] [cursor=pointer]:
+              - generic [ref=e949]:
+                - img [ref=e953]
+                - button "View receipt" [ref=e955]:
+                  - generic:
+                    - img
+                  - generic [ref=e956]: View receipt
+                - img [ref=e959]
+            - cell
+            - cell "$70.00 USD" [ref=e960] [cursor=pointer]:
+              - paragraph [ref=e967]: $70.00 USD
+            - cell [ref=e968]
+          - row "Mealpal Requirements complete · Restaurants · David Wallace Aug 21, 2021 Virtual card (1169) Cleared Office Supplies View limit Edit “Synced” transactions cannot be edited. — View receipt $70.77 USD" [ref=e969]:
+            - cell [ref=e970]:
+              - generic [ref=e972] [cursor=pointer]:
+                - checkbox [ref=e973]
+                - img
+            - cell "Mealpal Requirements complete · Restaurants · David Wallace" [ref=e974] [cursor=pointer]:
+              - generic [ref=e982]:
+                - text: Mealpal
+                - generic [ref=e983]:
+                  - generic [ref=e984]: Requirements complete
+                  - text: · Restaurants · David Wallace
+            - cell "Aug 21, 2021" [ref=e985] [cursor=pointer]:
+              - generic [ref=e988]: Aug 21, 2021
+            - cell "Virtual card (1169)" [ref=e989] [cursor=pointer]:
+              - generic [ref=e992]: Virtual card (1169)
+            - cell "Cleared" [ref=e993] [cursor=pointer]:
+              - paragraph [ref=e996]: Cleared
+            - cell "Office Supplies View limit" [ref=e997] [cursor=pointer]:
+              - generic [ref=e998]:
+                - generic [ref=e1000]: Office Supplies
+                - button "View limit" [ref=e1001]:
+                  - generic:
+                    - img
+                  - generic [ref=e1002]: View limit
+            - cell "Edit" [ref=e1003] [cursor=pointer]:
+              - generic [ref=e1006]:
+                - img [ref=e1010]
+                - button "Edit" [ref=e1012]:
+                  - generic:
+                    - img
+                  - generic [ref=e1013]: Edit
+            - cell "“Synced” transactions cannot be edited. —" [ref=e1014]:
+              - generic [ref=e1017]:
+                - generic [ref=e1018]:
+                  - img [ref=e1019]
+                  - generic [ref=e1021]: “Synced” transactions cannot be edited.
+                - generic [ref=e1022]:
+                  - generic [ref=e1023]: —
+                  - button "—" [disabled] [ref=e1025]
+                - img [ref=e1027]
+            - cell "View receipt" [ref=e1028] [cursor=pointer]:
+              - generic [ref=e1031]:
+                - img [ref=e1035]
+                - button "View receipt" [ref=e1037]:
+                  - generic:
+                    - img
+                  - generic [ref=e1038]: View receipt
+                - img [ref=e1041]
+            - cell
+            - cell "$70.77 USD" [ref=e1042] [cursor=pointer]:
+              - paragraph [ref=e1049]: $70.77 USD
+            - cell [ref=e1050]
+          - row "Woorijip Requirements complete · Restaurants · David Wallace Aug 3, 2021 Virtual card (1169) Cleared Office Supplies View limit Edit “Synced” transactions cannot be edited. — View receipt $19.05 USD" [ref=e1051]:
+            - cell [ref=e1052]:
+              - generic [ref=e1054] [cursor=pointer]:
+                - checkbox [ref=e1055]
+                - img
+            - cell "Woorijip Requirements complete · Restaurants · David Wallace" [ref=e1056] [cursor=pointer]:
+              - generic [ref=e1064]:
+                - text: Woorijip
+                - generic [ref=e1065]:
+                  - generic [ref=e1066]: Requirements complete
+                  - text: · Restaurants · David Wallace
+            - cell "Aug 3, 2021" [ref=e1067] [cursor=pointer]:
+              - generic [ref=e1070]: Aug 3, 2021
+            - cell "Virtual card (1169)" [ref=e1071] [cursor=pointer]:
+              - generic [ref=e1074]: Virtual card (1169)
+            - cell "Cleared" [ref=e1075] [cursor=pointer]:
+              - paragraph [ref=e1078]: Cleared
+            - cell "Office Supplies View limit" [ref=e1079] [cursor=pointer]:
+              - generic [ref=e1080]:
+                - generic [ref=e1082]: Office Supplies
+                - button "View limit" [ref=e1083]:
+                  - generic:
+                    - img
+                  - generic [ref=e1084]: View limit
+            - cell "Edit" [ref=e1085] [cursor=pointer]:
+              - generic [ref=e1088]:
+                - img [ref=e1092]
+                - button "Edit" [ref=e1094]:
+                  - generic:
+                    - img
+                  - generic [ref=e1095]: Edit
+            - cell "“Synced” transactions cannot be edited. —" [ref=e1096]:
+              - generic [ref=e1099]:
+                - generic [ref=e1100]:
+                  - img [ref=e1101]
+                  - generic [ref=e1103]: “Synced” transactions cannot be edited.
+                - generic [ref=e1104]:
+                  - generic [ref=e1105]: —
+                  - button "—" [disabled] [ref=e1107]
+                - img [ref=e1109]
+            - cell "View receipt" [ref=e1110] [cursor=pointer]:
+              - generic [ref=e1113]:
+                - img [ref=e1117]
+                - button "View receipt" [ref=e1119]:
+                  - generic:
+                    - img
+                  - generic [ref=e1120]: View receipt
+                - img [ref=e1123]
+            - cell
+            - cell "$19.05 USD" [ref=e1124] [cursor=pointer]:
+              - paragraph [ref=e1131]: $19.05 USD
+            - cell [ref=e1132]
+          - row "Dokodemo Requirements complete · Restaurants · David Wallace Jul 12, 2021 Virtual card (1169) Cleared Office Supplies View limit Edit “Synced” transactions cannot be edited. — View receipt $20.00 USD" [ref=e1133]:
+            - cell [ref=e1134]:
+              - generic [ref=e1136] [cursor=pointer]:
+                - checkbox [ref=e1137]
+                - img
+            - cell "Dokodemo Requirements complete · Restaurants · David Wallace" [ref=e1138] [cursor=pointer]:
+              - generic [ref=e1146]:
+                - text: Dokodemo
+                - generic [ref=e1147]:
+                  - generic [ref=e1148]: Requirements complete
+                  - text: · Restaurants · David Wallace
+            - cell "Jul 12, 2021" [ref=e1149] [cursor=pointer]:
+              - generic [ref=e1152]: Jul 12, 2021
+            - cell "Virtual card (1169)" [ref=e1153] [cursor=pointer]:
+              - generic [ref=e1156]: Virtual card (1169)
+            - cell "Cleared" [ref=e1157] [cursor=pointer]:
+              - paragraph [ref=e1160]: Cleared
+            - cell "Office Supplies View limit" [ref=e1161] [cursor=pointer]:
+              - generic [ref=e1162]:
+                - generic [ref=e1164]: Office Supplies
+                - button "View limit" [ref=e1165]:
+                  - generic:
+                    - img
+                  - generic [ref=e1166]: View limit
+            - cell "Edit" [ref=e1167] [cursor=pointer]:
+              - generic [ref=e1170]:
+                - img [ref=e1174]
+                - button "Edit" [ref=e1176]:
+                  - generic:
+                    - img
+                  - generic [ref=e1177]: Edit
+            - cell "“Synced” transactions cannot be edited. —" [ref=e1178]:
+              - generic [ref=e1181]:
+                - generic [ref=e1182]:
+                  - img [ref=e1183]
+                  - generic [ref=e1185]: “Synced” transactions cannot be edited.
+                - generic [ref=e1186]:
+                  - generic [ref=e1187]: —
+                  - button "—" [disabled] [ref=e1189]
+                - img [ref=e1191]
+            - cell "View receipt" [ref=e1192] [cursor=pointer]:
+              - generic [ref=e1195]:
+                - img [ref=e1199]
+                - button "View receipt" [ref=e1201]:
+                  - generic:
+                    - img
+                  - generic [ref=e1202]: View receipt
+                - img [ref=e1205]
+            - cell
+            - cell "$20.00 USD" [ref=e1206] [cursor=pointer]:
+              - paragraph [ref=e1213]: $20.00 USD
+            - cell [ref=e1214]
+          - row "Sweetgreen Requirements complete · Restaurants · David Wallace Jul 11, 2021 Virtual card (1169) Cleared Office Supplies View limit Edit “Synced” transactions cannot be edited. — View receipt $17.91 USD" [ref=e1215]:
+            - cell [ref=e1216]:
+              - generic [ref=e1218] [cursor=pointer]:
+                - checkbox [ref=e1219]
+                - img
+            - cell "Sweetgreen Requirements complete · Restaurants · David Wallace" [ref=e1220] [cursor=pointer]:
+              - generic [ref=e1228]:
+                - text: Sweetgreen
+                - generic [ref=e1229]:
+                  - generic [ref=e1230]: Requirements complete
+                  - text: · Restaurants · David Wallace
+            - cell "Jul 11, 2021" [ref=e1231] [cursor=pointer]:
+              - generic [ref=e1234]: Jul 11, 2021
+            - cell "Virtual card (1169)" [ref=e1235] [cursor=pointer]:
+              - generic [ref=e1238]: Virtual card (1169)
+            - cell "Cleared" [ref=e1239] [cursor=pointer]:
+              - paragraph [ref=e1242]: Cleared
+            - cell "Office Supplies View limit" [ref=e1243] [cursor=pointer]:
+              - generic [ref=e1244]:
+                - generic [ref=e1246]: Office Supplies
+                - button "View limit" [ref=e1247]:
+                  - generic:
+                    - img
+                  - generic [ref=e1248]: View limit
+            - cell "Edit" [ref=e1249] [cursor=pointer]:
+              - generic [ref=e1252]:
+                - img [ref=e1256]
+                - button "Edit" [ref=e1258]:
+                  - generic:
+                    - img
+                  - generic [ref=e1259]: Edit
+            - cell "“Synced” transactions cannot be edited. —" [ref=e1260]:
+              - generic [ref=e1263]:
+                - generic [ref=e1264]:
+                  - img [ref=e1265]
+                  - generic [ref=e1267]: “Synced” transactions cannot be edited.
+                - generic [ref=e1268]:
+                  - generic [ref=e1269]: —
+                  - button "—" [disabled] [ref=e1271]
+                - img [ref=e1273]
+            - cell "View receipt" [ref=e1274] [cursor=pointer]:
+              - generic [ref=e1277]:
+                - img [ref=e1281]
+                - button "View receipt" [ref=e1283]:
+                  - generic:
+                    - img
+                  - generic [ref=e1284]: View receipt
+                - img [ref=e1287]
+            - cell
+            - cell "$17.91 USD" [ref=e1288] [cursor=pointer]:
+              - paragraph [ref=e1295]: $17.91 USD
+            - cell [ref=e1296]
+          - row "Lenwich Requirements complete · Restaurants · David Wallace Jul 10, 2021 Virtual card (1169) Cleared Office Supplies View limit Edit “Synced” transactions cannot be edited. — View receipt $14.45 USD" [ref=e1297]:
+            - cell [ref=e1298]:
+              - generic [ref=e1300] [cursor=pointer]:
+                - checkbox [ref=e1301]
+                - img
+            - cell "Lenwich Requirements complete · Restaurants · David Wallace" [ref=e1302] [cursor=pointer]:
+              - generic [ref=e1310]:
+                - text: Lenwich
+                - generic [ref=e1311]:
+                  - generic [ref=e1312]: Requirements complete
+                  - text: · Restaurants · David Wallace
+            - cell "Jul 10, 2021" [ref=e1313] [cursor=pointer]:
+              - generic [ref=e1316]: Jul 10, 2021
+            - cell "Virtual card (1169)" [ref=e1317] [cursor=pointer]:
+              - generic [ref=e1320]: Virtual card (1169)
+            - cell "Cleared" [ref=e1321] [cursor=pointer]:
+              - paragraph [ref=e1324]: Cleared
+            - cell "Office Supplies View limit" [ref=e1325] [cursor=pointer]:
+              - generic [ref=e1326]:
+                - generic [ref=e1328]: Office Supplies
+                - button "View limit" [ref=e1329]:
+                  - generic:
+                    - img
+                  - generic [ref=e1330]: View limit
+            - cell "Edit" [ref=e1331] [cursor=pointer]:
+              - generic [ref=e1334]:
+                - img [ref=e1338]
+                - button "Edit" [ref=e1340]:
+                  - generic:
+                    - img
+                  - generic [ref=e1341]: Edit
+            - cell "“Synced” transactions cannot be edited. —" [ref=e1342]:
+              - generic [ref=e1345]:
+                - generic [ref=e1346]:
+                  - img [ref=e1347]
+                  - generic [ref=e1349]: “Synced” transactions cannot be edited.
+                - generic [ref=e1350]:
+                  - generic [ref=e1351]: —
+                  - button "—" [disabled] [ref=e1353]
+                - img [ref=e1355]
+            - cell "View receipt" [ref=e1356] [cursor=pointer]:
+              - generic [ref=e1359]:
+                - img [ref=e1363]
+                - button "View receipt" [ref=e1365]:
+                  - generic:
+                    - img
+                  - generic [ref=e1366]: View receipt
+                - img [ref=e1369]
+            - cell
+            - cell "$14.45 USD" [ref=e1370] [cursor=pointer]:
+              - paragraph [ref=e1377]: $14.45 USD
+            - cell [ref=e1378]
+          - row "Sweetgreen Requirements complete · Restaurants · David Wallace Jul 7, 2021 Virtual card (1169) Cleared Office Supplies View limit Edit “Synced” transactions cannot be edited. — View receipt $19.49 USD" [ref=e1379]:
+            - cell [ref=e1380]:
+              - generic [ref=e1382] [cursor=pointer]:
+                - checkbox [ref=e1383]
+                - img
+            - cell "Sweetgreen Requirements complete · Restaurants · David Wallace" [ref=e1384] [cursor=pointer]:
+              - generic [ref=e1392]:
+                - text: Sweetgreen
+                - generic [ref=e1393]:
+                  - generic [ref=e1394]: Requirements complete
+                  - text: · Restaurants · David Wallace
+            - cell "Jul 7, 2021" [ref=e1395] [cursor=pointer]:
+              - generic [ref=e1398]: Jul 7, 2021
+            - cell "Virtual card (1169)" [ref=e1399] [cursor=pointer]:
+              - generic [ref=e1402]: Virtual card (1169)
+            - cell "Cleared" [ref=e1403] [cursor=pointer]:
+              - paragraph [ref=e1406]: Cleared
+            - cell "Office Supplies View limit" [ref=e1407] [cursor=pointer]:
+              - generic [ref=e1408]:
+                - generic [ref=e1410]: Office Supplies
+                - button "View limit" [ref=e1411]:
+                  - generic:
+                    - img
+                  - generic [ref=e1412]: View limit
+            - cell "Edit" [ref=e1413] [cursor=pointer]:
+              - generic [ref=e1416]:
+                - img [ref=e1420]
+                - button "Edit" [ref=e1422]:
+                  - generic:
+                    - img
+                  - generic [ref=e1423]: Edit
+            - cell "“Synced” transactions cannot be edited. —" [ref=e1424]:
+              - generic [ref=e1427]:
+                - generic [ref=e1428]:
+                  - img [ref=e1429]
+                  - generic [ref=e1431]: “Synced” transactions cannot be edited.
+                - generic [ref=e1432]:
+                  - generic [ref=e1433]: —
+                  - button "—" [disabled] [ref=e1435]
+                - img [ref=e1437]
+            - cell "View receipt" [ref=e1438] [cursor=pointer]:
+              - generic [ref=e1441]:
+                - img [ref=e1445]
+                - button "View receipt" [ref=e1447]:
+                  - generic:
+                    - img
+                  - generic [ref=e1448]: View receipt
+                - img [ref=e1451]
+            - cell
+            - cell "$19.49 USD" [ref=e1452] [cursor=pointer]:
+              - paragraph [ref=e1459]: $19.49 USD
+            - cell [ref=e1460]
+          - row "Abiko Curry Requirements complete · Restaurants · David Wallace Jul 5, 2021 Virtual card (1169) Cleared Office Supplies View limit Edit “Synced” transactions cannot be edited. — View receipt $19.41 USD" [ref=e1461]:
+            - cell [ref=e1462]:
+              - generic [ref=e1464] [cursor=pointer]:
+                - checkbox [ref=e1465]
+                - img
+            - cell "Abiko Curry Requirements complete · Restaurants · David Wallace" [ref=e1466] [cursor=pointer]:
+              - generic [ref=e1474]:
+                - text: Abiko Curry
+                - generic [ref=e1475]:
+                  - generic [ref=e1476]: Requirements complete
+                  - text: · Restaurants · David Wallace
+            - cell "Jul 5, 2021" [ref=e1477] [cursor=pointer]:
+              - generic [ref=e1480]: Jul 5, 2021
+            - cell "Virtual card (1169)" [ref=e1481] [cursor=pointer]:
+              - generic [ref=e1484]: Virtual card (1169)
+            - cell "Cleared" [ref=e1485] [cursor=pointer]:
+              - paragraph [ref=e1488]: Cleared
+            - cell "Office Supplies View limit" [ref=e1489] [cursor=pointer]:
+              - generic [ref=e1490]:
+                - generic [ref=e1492]: Office Supplies
+                - button "View limit" [ref=e1493]:
+                  - generic:
+                    - img
+                  - generic [ref=e1494]: View limit
+            - cell "Edit" [ref=e1495] [cursor=pointer]:
+              - generic [ref=e1498]:
+                - img [ref=e1502]
+                - button "Edit" [ref=e1504]:
+                  - generic:
+                    - img
+                  - generic [ref=e1505]: Edit
+            - cell "“Synced” transactions cannot be edited. —" [ref=e1506]:
+              - generic [ref=e1509]:
+                - generic [ref=e1510]:
+                  - img [ref=e1511]
+                  - generic [ref=e1513]: “Synced” transactions cannot be edited.
+                - generic [ref=e1514]:
+                  - generic [ref=e1515]: —
+                  - button "—" [disabled] [ref=e1517]
+                - img [ref=e1519]
+            - cell "View receipt" [ref=e1520] [cursor=pointer]:
+              - generic [ref=e1523]:
+                - img [ref=e1527]
+                - button "View receipt" [ref=e1529]:
+                  - generic:
+                    - img
+                  - generic [ref=e1530]: View receipt
+                - img [ref=e1533]
+            - cell
+            - cell "$19.41 USD" [ref=e1534] [cursor=pointer]:
+              - paragraph [ref=e1541]: $19.41 USD
+            - cell [ref=e1542]
+          - row "Sweetgreen Requirements complete · Restaurants · David Wallace Jul 4, 2021 Virtual card (1169) Cleared Office Supplies View limit Edit “Synced” transactions cannot be edited. — View receipt $18.94 USD" [ref=e1543]:
+            - cell [ref=e1544]:
+              - generic [ref=e1546] [cursor=pointer]:
+                - checkbox [ref=e1547]
+                - img
+            - cell "Sweetgreen Requirements complete · Restaurants · David Wallace" [ref=e1548] [cursor=pointer]:
+              - generic [ref=e1556]:
+                - text: Sweetgreen
+                - generic [ref=e1557]:
+                  - generic [ref=e1558]: Requirements complete
+                  - text: · Restaurants · David Wallace
+            - cell "Jul 4, 2021" [ref=e1559] [cursor=pointer]:
+              - generic [ref=e1562]: Jul 4, 2021
+            - cell "Virtual card (1169)" [ref=e1563] [cursor=pointer]:
+              - generic [ref=e1566]: Virtual card (1169)
+            - cell "Cleared" [ref=e1567] [cursor=pointer]:
+              - paragraph [ref=e1570]: Cleared
+            - cell "Office Supplies View limit" [ref=e1571] [cursor=pointer]:
+              - generic [ref=e1572]:
+                - generic [ref=e1574]: Office Supplies
+                - button "View limit" [ref=e1575]:
+                  - generic:
+                    - img
+                  - generic [ref=e1576]: View limit
+            - cell "Edit" [ref=e1577] [cursor=pointer]:
+              - generic [ref=e1580]:
+                - img [ref=e1584]
+                - button "Edit" [ref=e1586]:
+                  - generic:
+                    - img
+                  - generic [ref=e1587]: Edit
+            - cell "“Synced” transactions cannot be edited. —" [ref=e1588]:
+              - generic [ref=e1591]:
+                - generic [ref=e1592]:
+                  - img [ref=e1593]
+                  - generic [ref=e1595]: “Synced” transactions cannot be edited.
+                - generic [ref=e1596]:
+                  - generic [ref=e1597]: —
+                  - button "—" [disabled] [ref=e1599]
+                - img [ref=e1601]
+            - cell "View receipt" [ref=e1602] [cursor=pointer]:
+              - generic [ref=e1605]:
+                - img [ref=e1609]
+                - button "View receipt" [ref=e1611]:
+                  - generic:
+                    - img
+                  - generic [ref=e1612]: View receipt
+                - img [ref=e1615]
+            - cell
+            - cell "$18.94 USD" [ref=e1616] [cursor=pointer]:
+              - paragraph [ref=e1623]: $18.94 USD
+            - cell [ref=e1624]
+          - row "Whole Foods Market Requirements complete · Supermarkets and Grocery Stores · David Wallace Jun 8, 2021 Virtual card (1169) Cleared Office Supplies View limit health food Edit “Synced” transactions cannot be edited. — View receipt $75.00 USD" [ref=e1625]:
+            - cell [ref=e1626]:
+              - generic [ref=e1628] [cursor=pointer]:
+                - checkbox [ref=e1629]
+                - img
+            - cell "Whole Foods Market Requirements complete · Supermarkets and Grocery Stores · David Wallace" [ref=e1630] [cursor=pointer]:
+              - generic [ref=e1638]:
+                - text: Whole Foods Market
+                - generic [ref=e1639]:
+                  - generic [ref=e1640]: Requirements complete
+                  - text: · Supermarkets and Grocery Stores · David Wallace
+            - cell "Jun 8, 2021" [ref=e1641] [cursor=pointer]:
+              - generic [ref=e1644]: Jun 8, 2021
+            - cell "Virtual card (1169)" [ref=e1645] [cursor=pointer]:
+              - generic [ref=e1648]: Virtual card (1169)
+            - cell "Cleared" [ref=e1649] [cursor=pointer]:
+              - paragraph [ref=e1652]: Cleared
+            - cell "Office Supplies View limit" [ref=e1653] [cursor=pointer]:
+              - generic [ref=e1654]:
+                - generic [ref=e1656]: Office Supplies
+                - button "View limit" [ref=e1657]:
+                  - generic:
+                    - img
+                  - generic [ref=e1658]: View limit
+            - cell "health food Edit" [ref=e1659] [cursor=pointer]:
+              - generic [ref=e1662]:
+                - generic [ref=e1666]: health food
+                - button "Edit" [ref=e1668]:
+                  - generic:
+                    - img
+                  - generic [ref=e1669]: Edit
+            - cell "“Synced” transactions cannot be edited. —" [ref=e1670]:
+              - generic [ref=e1673]:
+                - generic [ref=e1674]:
+                  - img [ref=e1675]
+                  - generic [ref=e1677]: “Synced” transactions cannot be edited.
+                - generic [ref=e1678]:
+                  - generic [ref=e1679]: —
+                  - button "—" [disabled] [ref=e1681]
+                - img [ref=e1683]
+            - cell "View receipt" [ref=e1684] [cursor=pointer]:
+              - generic [ref=e1687]:
+                - img [ref=e1691]
+                - button "View receipt" [ref=e1694]:
+                  - generic:
+                    - img
+                  - generic [ref=e1695]: View receipt
+                - img [ref=e1698]
+            - cell
+            - cell "$75.00 USD" [ref=e1702] [cursor=pointer]:
+              - paragraph [ref=e1709]: $75.00 USD
+            - cell [ref=e1710]
+        - generic [ref=e1711]:
+          - button "Select" [ref=e1714] [cursor=pointer]:
+            - generic [ref=e1715]: Select
+            - generic:
+              - img
+          - generic [ref=e1719]:
+            - generic [ref=e1721]: 1–28 of 28 items
+            - generic [ref=e1723]: ·
+            - generic [ref=e1725]: $8,897.26
