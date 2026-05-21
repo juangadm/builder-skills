@@ -2,23 +2,8 @@
   "name": "builder-skills",
   "version": "1.0.0",
   "description": "Product and engineering skills for Claude Code — product pathing, website duplication, and visual PR diffs.",
-  "author": "juangadm",
-  "homepage": "https://github.com/juangadm/builder-skills",
-  "skills": [
-    {
-      "name": "product-pathing",
-      "path": "skills/product-pathing/SKILL.md",
-      "description": "Three-phase workflow for turning a product idea into a validated path forward with a clear plan."
-    },
-    {
-      "name": "dupe",
-      "path": "skills/dupe/SKILL.md",
-      "description": "Clone a live website with pixel-perfect fidelity using DOM extraction."
-    },
-    {
-      "name": "pre-post",
-      "path": "skills/pre-post/SKILL.md",
-      "description": "Capture before/after screenshots of web pages for visual comparison in PRs."
-    }
-  ]
+  "author": {
+    "name": "juangadm"
+  },
+  "homepage": "https://github.com/juangadm/builder-skills"
 }
