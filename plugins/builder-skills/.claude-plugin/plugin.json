@@ -1,7 +1,7 @@
 {
   "name": "builder-skills",
   "version": "1.0.0",
-  "description": "Product and engineering skills for Claude Code — product pathing, website duplication, and visual PR diffs.",
+  "description": "Product and engineering skills for Claude Code — product pathing and website duplication.",
   "author": {
     "name": "juangadm"
   },

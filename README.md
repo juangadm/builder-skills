@@ -1,13 +1,12 @@
 # Builder Skills
 
-Claude Code skills for people who build products. Clone real UIs, turn ideas into specs, document visual changes — all from the terminal.
+Claude Code skills for people who build products. Clone real UIs and turn ideas into specs — all from the terminal.
 
 ## Skills
 
 | Skill | What it does | Status |
 |-------|-------------|--------|
 | [dupe](./skills/dupe/) | Clone any website into working code via DOM extraction | v0.2 — finalizing |
-| [pre-post](./skills/pre-post/) | Before/after screenshots for PR visual diffs | Working |
 | [product-pathing](./skills/product-pathing/) | Frame → Research → Path workflow for product specs | Ready |
 
 ## Install
@@ -27,10 +26,13 @@ Copy the `skills/{name}/` folder into your project's `.claude/skills/` directory
 cp -r skills/product-pathing/ .claude/skills/product-pathing/
 ```
 
+### Looking for pre-post?
+
+pre-post now lives in its own repo. Install it with: `npx skills add juangadm/pre-post -y`
+
 ### Requirements
 
 - **dupe** requires [Playwright MCP](https://github.com/anthropics/mcp-playwright) — the skill will prompt you if it's missing
-- **pre-post** requires the `pre-post` CLI: `npm install -g @juangadm/pre-post`
 - **product-pathing** has no dependencies
 
 ## Skill Details
@@ -46,14 +48,6 @@ Clone a live website into editable HTML/CSS/JS. Extracts real DOM structure, com
 **Includes:** SKILL.md + 3 phase files (extract, build, verify) + 12 browser scripts + extraction reference doc
 
 **Use case:** Clone Ramp's dashboard, add your proposed feature, demo it in an interview.
-
-### pre-post
-
-Capture before/after screenshots across routes and viewports. Generates markdown tables for PR documentation.
-
-**Includes:** SKILL.md + upload scripts (git-native, blob, 0x0st adapters)
-
-**Use case:** You changed the dashboard layout. Capture production vs. localhost, paste the visual diff into your PR.
 
 ### product-pathing
 
@@ -72,9 +66,6 @@ skills/
 │   ├── phases/               # Extract, build, verify phase prompts
 │   ├── scripts/              # Playwright browser_evaluate scripts
 │   └── references/           # Extraction format reference
-├── pre-post/
-│   ├── SKILL.md              # Screenshot capture + PR integration
-│   └── scripts/              # Image upload adapters
 └── product-pathing/
     └── SKILL.md              # Frame → Research → Path workflow
 ```

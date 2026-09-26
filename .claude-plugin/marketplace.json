@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "builder-skills",
-      "description": "Product and engineering skills for Claude Code — product pathing, website duplication, and visual PR diffs.",
+      "description": "Product and engineering skills for Claude Code — product pathing and website duplication.",
       "version": "1.0.0",
       "source": "./plugins/builder-skills"
     }
